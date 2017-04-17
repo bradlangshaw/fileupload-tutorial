@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Upload Tutorial</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>File Upload Tutorial</h1>
+    <p>Open in Your Code editor, begin from Step 1 in "./app.js"</p>
+<!--
+//STEP 5:
+  add a form element with the method set to post and 'enctype="multipart/form-data"'
+-->
+<!--
+//STEP 6:
+  inside the form put a div element with a class of form-group. 
+  inside the div add a label element for 'fileupload', with the class 'control-label'.
+   'name' and 'id' an input 'fileupload' and the 'type' must be set to 'file'.
+  also add a submit button.
+-->
+<!--
+//STEP 7:
+ go to "../routes/index.js" for STEP 8
+-->
+
+
+<!--
+//STEP 16:
+    add a for loop that iterates through each file, in this demo we will use images and display them back on the main index page.
+     < for (var i = 0; i < fileuploadtut.length; i++) { >
+     <img  class="text-center" src="/uploads/<= fileuploadtut[i].fileupload >" width="180px" height="200px" alt="Image Not Set, Wrong file type?"/>
+      < } >
+
+      !! dont forget to add the percent signs for the server side code!!
+-->
+
+  </body>
+</html>
