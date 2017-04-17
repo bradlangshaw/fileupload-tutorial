@@ -1,3 +1,3 @@
-FILE UPLOAD ASSIGNMENT FOR COMP2106 
+<h1>FILE UPLOAD ASSIGNMENT FOR COMP2106</h1>
 
-start in app.js
+Open files in your code editor and start in app.js
